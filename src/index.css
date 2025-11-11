@@ -1,5 +1,4 @@
-@import "tailwindcss/preflight";
-@tailwind utilities;
+@import "tailwindcss";
 
 @theme {
   @keyframes floatFade {
@@ -21,9 +20,12 @@
   --color-brand-pink-dark: #EC4899;
   --color-brand-green-dark: #065F46;
 
-  /* Custom Animations */
+  /* Custom Animations (Now with 7 delays) */
   --animation-float-fade-1: floatFade 15s ease-in-out infinite;
-  --animation-float-fade-2: floatFade 15s ease-in-out infinite 4s;
-  --animation-float-fade-3: floatFade 15s ease-in-out infinite 8s;
-  --animation-float-fade-4: floatFade 15s ease-in-out infinite 12s;
+  --animation-float-fade-2: floatFade 15s ease-in-out infinite 2s;
+  --animation-float-fade-3: floatFade 15s ease-in-out infinite 4s;
+  --animation-float-fade-4: floatFade 15s ease-in-out infinite 6s;
+  --animation-float-fade-5: floatFade 15s ease-in-out infinite 8s;
+  --animation-float-fade-6: floatFade 15s ease-in-out infinite 10s;
+  --animation-float-fade-7: floatFade 15s ease-in-out infinite 12s;
 }
